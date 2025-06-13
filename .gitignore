@@ -1,0 +1,292 @@
+# ===== PYTORCH & MACHINE LEARNING =====
+# Model checkpoints and weights
+checkpoints/
+*.pth
+*.pt
+*.pkl
+*.h5
+*.hdf5
+model_weights/
+saved_models/
+
+# Training artifacts
+logs/
+runs/
+wandb/
+tensorboard_logs/
+mlruns/
+
+# Data files
+data/
+datasets/
+*.csv
+*.tsv
+*.json.gz
+*.parquet
+*.feather
+
+# Large files that shouldn't be tracked
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# ===== PYTHON =====
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ===== OPERATING SYSTEM =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.target
+.metadata
+.gradle
+local.properties
+.factorypath
+
+# Linux
+*~
+
+# ===== DEVELOPMENT TOOLS =====
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===== PROJECT SPECIFIC =====
+# Generated images and plots
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+!docs/images/*.png
+!README_images/*.png
+!samples/*.png
+
+# Training outputs
+training_summary.json
+resnet_training_summary.json
+*_training_progress.png
+*_progress_epoch_*.png
+
+# Streamlit cache
+.streamlit/
+
+# Temporary files
+temp/
+tmp/
+.temp/
+.tmp/
+
+# Config files with secrets
+config_secret.json
+.env.local
+.env.production
+
+# Large dataset files
+cifar-10-python.tar.gz
+cifar-10-batches-py/
+*.hdf5
+*.npz
+
+# Output directories
+results/
+outputs/
+experiments/
+
+# ===== OPTIONAL: UNCOMMENT IF NEEDED =====
+# Ignore all data except samples
+# data/*
+# !data/samples/
+# !data/.gitkeep
+
+# Ignore all logs except important ones
+# logs/*
+# !logs/important.log
+# !logs/.gitkeep
+
+# Ignore checkpoints except best model
+# checkpoints/*
+# !checkpoints/production_model.pth
+# !checkpoints/.gitkeep
