@@ -1,13 +1,13 @@
-# 🖼️ CIFAR-10 Image Classification System
+# 🖼️ CIFAR-10 Image Classification System (Claude-Code)
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.25+-green.svg)](https://streamlit.io)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A complete end-to-end deep learning project for image classification using PyTorch. Train CNN models on CIFAR-10 dataset and deploy them through a professional web interface built with Streamlit.
+A complete end-to-end deep learning project for image classification using PyTorch. Train CNN models on CIFAR-10 dataset and deploy them through a professional web interface built with Streamlit. Also it's being assisted by Claude-Code
 
-![Project Demo](docs/demo_screenshot.png)
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/4da9257b-d115-42df-be12-61974fbc176f" />
 
 ## 🎯 Project Goals
 
