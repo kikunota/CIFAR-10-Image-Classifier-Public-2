@@ -7,7 +7,7 @@
 
 A complete end-to-end deep learning project for image classification using PyTorch. Train CNN models on CIFAR-10 dataset and deploy them through a professional web interface built with Streamlit. Also it's being assisted by Claude-Code
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/4da9257b-d115-42df-be12-61974fbc176f" />
+![画面収録 2025-06-13 14 21 58 (2)](https://github.com/user-attachments/assets/208167b9-697e-46d0-9687-e52c2dbfb31f)
 
 ## 🎯 Project Goals
 
